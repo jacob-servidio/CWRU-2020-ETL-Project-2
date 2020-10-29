@@ -13,7 +13,9 @@ Proposal Link: https://docs.google.com/document/d/1QEVRHTQiBN-4Zyvs3NLs7SRVq0vEO
 
   Our team did a through transformation needed for these data sets by cleaning, joining, filtering, aggregating the data. Started with gathering the data from the sources Our team  project's data was pulled from the recommend sites to use as sources of data: Kaggle - the data additional source links and reference can be found in the project proposal link. 
  
+ ## Technical Requirements
  
+ We used pgadmin posgres to create the DBD diagram
  
  
  
