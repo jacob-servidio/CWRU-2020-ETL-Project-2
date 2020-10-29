@@ -21,9 +21,8 @@ Proposal Link: https://docs.google.com/document/d/1QEVRHTQiBN-4Zyvs3NLs7SRVq0vEO
  
  
  ## Project Report
- 
- Take a closer look at the Final report, as it explins the following: 
- * 
+
+
  
  
  
