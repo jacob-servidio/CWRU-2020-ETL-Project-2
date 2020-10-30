@@ -16,11 +16,19 @@ Proposal Link: https://docs.google.com/document/d/1QEVRHTQiBN-4Zyvs3NLs7SRVq0vEO
 * Our team did a through transformation needed for these data sets by cleaning, joining, filtering, aggregating the data.  - the data additional source links and reference can be found in the Final project report under project proposal tab. 
  
  ## Technical Requirements
+  
+ We used Postgres database using PG admin to store our original clean data sets. We used thequick database
  
- We used pgadmin posgres to create the tables and then later that to be converted into DBD diagram
  
+ ## Project Final Report
  
- ## Project Report
+ Consists of the the detailes explanation of the 
+ ### Extract
+ ### Transform 
+ ### Load 
+ and a detailed 
+ ### Summary
+ 
 
 
  
