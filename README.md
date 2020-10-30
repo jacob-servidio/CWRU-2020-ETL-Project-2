@@ -23,11 +23,10 @@ Proposal Link: https://docs.google.com/document/d/1QEVRHTQiBN-4Zyvs3NLs7SRVq0vEO
  ## Project Final Report
  
  Consists of the the detailes explanation of the 
- ### Extract
- ### Transform 
- ### Load 
- and a detailed 
- ### Summary
+ * Extract
+ * Transform 
+ * Load 
+ * Summary
  
 
 
