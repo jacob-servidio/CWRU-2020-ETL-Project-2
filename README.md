@@ -23,6 +23,8 @@ https://github.com/jacob-servidio/CWRU-2020-ETL-Project-2/blob/main/NBA.ipynb- l
  
  ## Project Final Report
  
+ https://jacob-servidio.github.io/CWRU-2020-ETL-Project-2/ - link to the Final Report
+ 
  Consists of the the detailes explanation of the 
  * Extract
  * Transform 
