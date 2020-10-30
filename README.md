@@ -31,7 +31,7 @@ https://github.com/jacob-servidio/CWRU-2020-ETL-Project-2/blob/main/NBA.ipynb- l
  
 ## Team Effort
 
-Lastly and probably the most important factor of this project was the team effort! and that was exceptional. We completed this project by going step by step Ectracting, transforming, and loading of the data. keeping each others in loop while the double checking each othets work for the possible errors and requirements. For a successful group project all members in the group played a key role in in aligning project requirements and getting each other involved. That is what this team has done this ETL project.
+Lastly and probably the most important factor of this project was the team effort! and that was exceptional. We completed this project by going step by step Extracting, transforming, and loading of the data. keeping each others in loop while the double checking each othets work for the possible errors and requirements. For a successful group project all members in the group played a key role in in aligning project requirements and getting each other involved. That is what this team has done this ETL project.
 
  
  
