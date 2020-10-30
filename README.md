@@ -28,7 +28,9 @@ Proposal Link: https://docs.google.com/document/d/1QEVRHTQiBN-4Zyvs3NLs7SRVq0vEO
  * Load 
  * Summary
  
+## Team Effort
 
+Lastly and probably the most important factor of this project was the team effort! and that was exceptional. We completed this project by going step by step Ectracting, transforming, and loading of the data. keeping each others in loop while the double checking each othets work for the possible erroes and requirement. For a successful group project all members in the group played a key role in in aligning project requirements and getting each other involved. That is what this team has done this ETL project.
 
  
  
