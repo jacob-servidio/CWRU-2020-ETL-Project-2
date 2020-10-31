@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <style>
@@ -120,6 +120,27 @@
 	font-size: 14px;
 }
 
+.bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bullets li {
+    position: relative;
+    padding-left: 20px;
+}
+.bullets li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('https://media2.giphy.com/media/3og0IQUYAVFM36zMbK/giphy.gif?cid=ecf05e474e8d798ae71d7e123f927e1625e9c44139fbb056&rid=giphy.gif');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 </style>
 
 <body>
@@ -158,7 +179,7 @@
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="text-white nav-link" href="#">FINAL REPORT</a>
+                <a class="text-white nav-link" href="https://github.com/jacob-servidio/CWRU-2020-ETL-Project-2/blob/main/ETL%20Final%20Report.docx">FINAL REPORT</a>
             </li>
         </ul>
     </div>
@@ -167,7 +188,7 @@
 <!-- Image Header -->
 <div class="head-img">
 	<div class="container-fluid bg-dark">
-			<img src= "images/Basketball.jpg" >
+			<img src= "images/Basketball.jpg" />
 	</div>
 </div>
 
@@ -212,21 +233,27 @@
 </div>
 </div>
 
-
-
 	  <div class="col">
 		<div class="card">
 			<div class="card-body">	
 				<h2>Your Questions Answered!</h2>
 				<div class="text">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Sed ullamcorper morbi tincidunt ornare. Non sodales neque sodales ut. Nibh nisl condimentum id venenatis a. Enim tortor at auctor urna. Enim ut tellus elementum sagittis vitae et.
+				<p>Possible data uses/questions:
+				<ul class = "bullets">
+<li>Do teams with “same-state competitors” perform better or worse compared to those that are the only team in a state?
+<li>Is there a trend regarding championship wins?</li>
+<li>Do these teams have better players?</li>
+<li>Most successful team per decade</li>
+<li>Most NBA titles in year range </li>
+<li>Scoring leader in year range </li>
+<li>Does average age of players correlate to team wins?</li>
 </p>
-				<p><i> *Some data reached limitations, including: ... Download the final report for more details</i>
-</p>
-		</div>
+</ul>
+				
 		</div>
 					<img class="card-img-bottom" src="https://media2.giphy.com/media/3og0IQUYAVFM36zMbK/giphy.gif?cid=ecf05e474e8d798ae71d7e123f927e1625e9c44139fbb056&rid=giphy.gif" alt="Card image">
 
+		</div>
 		</div>
 		</div>
 	<div class="col">
@@ -234,37 +261,50 @@
 			<div class="card-body">	
 	  <h2>Reliable Sources Only!</h2>
 			<div class="text">
-				<p>We pulled our sources from relevant </p>
-			<ul>
-				<li>https://www.teamrankings.com/nba/trends/win_trends/?range=yearly_2003_2004<ul>
-<li>https://www.landofbasketball.com/nba_teams_year_by_year.htm<ul>
-https://sportsdata.io/developers/api-documentation/nba#/free<ul>
-https://www.kaggle.com/drgilermo/nba-players-stats<ul>
-https://www.kaggle.com/drgilermo/nba-players-stats?select=Players.csv<ul>
-
-			
+							<p>We pulled our information from relevant resources:</p>
+			<ul class = "bullets">
+			<li><a href="https://www.teamrankings.com/nba/trends/win_trends/?range=yearly_2003_2004">Team Rankings: Win Trends</a></li>
+			<li><a href="https://www.landofbasketball.com/nba_teams_year_by_year.htm">LOB: Teams by Year</a></li>
+			<li><a href="https://sportsdata.io/developers/api-documentation/nba#/free">Sports Data: Assorted NBA data</a></li>
+			<li><a href="https://www.kaggle.com/drgilermo/nba-players-stats">Kaggle: Player Stats</a></li>
 			</ul>
+			
+	<p><i> *Our data is limited to regular season record and stastics. Download the final report for more details</i>
+</p>
 			</div>
 			</div>
 				<img class="card-img-bottom" src="https://media2.giphy.com/media/3og0IQUYAVFM36zMbK/giphy.gif?cid=ecf05e474e8d798ae71d7e123f927e1625e9c44139fbb056&rid=giphy.gif" alt="Card image">
 
 </div>
 </div>
-</div>			
-
-
+</div>
 <!-- ERD Section -->
 <div class="section-title">
 <div class="container-fluid bg-light" id="ERD">
 <h3 class="sec-title">ER-Diagram</h3>
 </div>
-<img src="https://raw.githubusercontent.com/jacob-servidio/CWRU-2020-ETL-Project-2/main/images/QuickDBD-NBA%20Season%20Record_Stats%20.png">
-</div>
+<!-- ERD Collapse -->
+<div class="col text-center">
+  <a href="#demo" class="btn" data-toggle="collapse">Click to Reveal</a>
+  <div id="demo" class="collapse">
+   <img src= "https://raw.githubusercontent.com/jacob-servidio/CWRU-2020-ETL-Project-2/main/images/QuickDBD-NBA%20Season%20Record_Stats%20.png"></img>
+  </div>
+  </div>
+
+
 <!-- Data Section -->
 <div class="section-title">
 <div class="container-fluid bg-light" id="data">
 <h3 class="sec-title">Data</h3>
 </div>
+<p><i> *Download the full report for more data images.</i>
+<img src="https://raw.githubusercontent.com/jacob-servidio/CWRU-2020-ETL-Project-2/main/images/c_Players.PNG"/>
+<img src="https://raw.githubusercontent.com/jacob-servidio/CWRU-2020-ETL-Project-2/main/images/c_nba_team_win.PNG"/>
+<img src="https://raw.githubusercontent.com/jacob-servidio/CWRU-2020-ETL-Project-2/main/images/c_season_stats.PNG"/>
+</p>
+
+
+
 </div>
 <!-- Team Section -->
 <div class="section-title">
@@ -326,14 +366,14 @@ https://www.kaggle.com/drgilermo/nba-players-stats?select=Players.csv<ul>
 	</div>
 </div>	
 </div>
-
+</div>
 <!-- Download Report Button -->
 <div class="container-fluid bg-dark">
 	<div class="row">
 		<div class="col text-center">
 		<p class="p-3 bg-dark"></p>
 		<p class="dl-text"><span>Get your FREE download:</span></p>
-			<a href="#" class="btn btn-warning btn-lg">FINAL REPORT</a>
+			<a href="https://github.com/jacob-servidio/CWRU-2020-ETL-Project-2/blob/main/ETL%20Final%20Report.docx" class="btn btn-warning btn-lg">FINAL REPORT</a>
 				
 </div>
 </div>
